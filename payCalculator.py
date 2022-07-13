@@ -15,8 +15,8 @@ def computePay(hours, rate):
 # save our compute function for later use
 compute = computePay(49.30, 10.23)
 # open the file with append option 'a'
-f = open('pythonTextFile.txt', 'a')
+f = open('payStub.txt', 'a')
 # use writelines to write to our file and convert to a string because the function only writes strings
-with open('pythonTextFile.txt', 'a') as f:
+with open('payStub.txt', 'a') as f:
     f.writelines(str(compute))
     f.write('\n')
