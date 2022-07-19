@@ -17,12 +17,12 @@ def computePay(hours, rate):
         print(nonOverTimePay)
         return '${}'.format(nonOverTimePay)
 
-
+# this is a comment for alan to test gituhub
 # save our compute function for later use
-compute = computePay(41, 10)
+# compute = computePay(41, 10)
 # open the file with append option 'a'
 f = open('/Users/jonnylee/pythonTextFile.txt', 'a')
 # use writelines to write to our file and convert to a string because the function only writes strings
 with open('/Users/jonnylee/pythonTextFile.txt', 'a') as f:
-    f.writelines(str(compute))
+    f.writelines(str(computePay(20, 10)))
     f.write('\n')
