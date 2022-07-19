@@ -17,7 +17,7 @@ def computePay(hours, rate):
         print(nonOverTimePay)
         return '${}'.format(nonOverTimePay)
 
-# this is a comment for alan to test gituhub
+
 # save our compute function for later use
 # compute = computePay(41, 10)
 # open the file with append option 'a'
